@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "atomicbreak",
+  "version": "1.0.0",
+  "name": "Atomic Break",
+  "description": "Uma chance extremamente pequena de ocorrer uma reacao atomica ao quebrar um bloco.",
+  "authors": [
+    "AtomicBreak"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.atomicbreak.AtomicBreak"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
